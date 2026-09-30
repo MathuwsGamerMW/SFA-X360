@@ -48,3 +48,22 @@ compile_commands.json
 
 # Per-lane scratch dirs (never part of the source tree)
 /scratchpad*/
+# Local/private files for SFA-X360
+LOCAL_CONFIG.bat
+LOCAL_CONFIG.ps1
+local/
+.env
+.env.*
+secrets.*
+credentials.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.iso
+*.gcm
+*.rvz
+*.wia
+*.wbfs
+*.nkit.*
+*.xex

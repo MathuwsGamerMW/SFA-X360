@@ -101,14 +101,14 @@ ports\xbox360\build\SFA-X360-devkit.xex
 ports\xbox360\dist\default.xex
 ```
 
-## Estado do PC em 30/09/2026
+## Estado do ambiente em 30/09/2026
 
-O XexTool v6.3 está disponível localmente.
+O ambiente local de desenvolvimento Xbox 360 foi preparado com Visual Studio 2010 Ultimate + SP1 e Xbox 360 SDK/XDK 2.0.21256.3.
 
-O XDK não está instalado nem registrado no Windows atual. `XEDK` está vazio; `cl.exe`, `link.exe`, `imagexex.exe`, `xboxkrnl.lib`, `xapilib.lib`, `d3d9.lib`, `xbcp.exe`, `xbreboot.exe` e `xbdm.dll` do XDK não foram encontrados.
+`XEDK` aponta para `C:\Program Files (x86)\Microsoft Xbox 360 SDK`, e as ferramentas essenciais do XDK, incluindo compilador, linker, ImageXex, xbcp e xbreboot, foram verificadas localmente.
 
-O MSBuild 4.0 existe, porém Visual Studio 2010 e os targets MSBuild `Xbox 360` não estão presentes.
+O bootstrap em `ports/xbox360` está pronto para a próxima validação de build e execução. O caminho do XexTool precisa ser fornecido ao `build.ps1` quando necessário.
 
-Por isso a etapa atual ainda não pode produzir um novo `default.xex` neste PC. O script falha antes da compilação com uma mensagem específica enquanto o XDK estiver ausente.
+Nenhuma imagem de jogo, asset comercial, SDK/XDK ou configuração privada de máquina faz parte do repositório público.
 
-Nenhuma parte da lógica original de Star Fox Adventures foi alterada nesta etapa.
+Nenhuma parte da lógica original de Star Fox Adventures foi alterada nesta etapa; o trabalho atual continua concentrado na infraestrutura do port Xbox 360.

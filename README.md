@@ -1,3 +1,9 @@
+# SFA-X360 — Xbox 360 port (work in progress)
+
+This branch contains an experimental, unofficial Xbox 360 port based on the Star Fox Adventures decompilation. Game disc images and commercial assets are **not** included; they remain local and must be supplied separately by the user. See [`ports/xbox360/PORTING.md`](ports/xbox360/PORTING.md) for the current porting status.
+
+---
+
 Star Fox Adventures Decompilation
 [![Build Status]][actions] [![Progress]][progress site] [![DOL Progress]][progress site]
 ===============================
